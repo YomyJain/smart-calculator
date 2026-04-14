@@ -2,23 +2,23 @@
 # a smart calculator that performs basic operations
 
 
-def add(a, b):
+ def add(a, b):
     return a + b
 
-def subtract(a, b):
+ def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+ def multiply(a, b):
     return a * b
 
-def divide(a, b):
+ def divide(a, b):
     if b == 0:
         return "Error: Cannot divide by zero"
     return a / b
 
 
-def calculator():
-    print("=== Smart Calculator ===")
+ def calculator():
+    print("== Smart Calculator ==")
 
     while True:
         print("\nChoose operation:")

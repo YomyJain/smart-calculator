@@ -1,5 +1,7 @@
 # smart-calculator
 # a smart calculator that performs basic operations
+
+
 def add(a, b):
     return a + b
 
